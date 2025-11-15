@@ -1,0 +1,282 @@
+{
+  "name": "Granja de Rehabilitación Cristiana Esperanza",
+  "short_name": "Granja Esperanza",
+  "description": "Centro de rehabilitación cristiano que ofrece tratamiento integral para adicciones con enfoque espiritual. Ayuda disponible 24/7.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#2563eb",
+  "background_color": "#ffffff",
+  "lang": "es-AR",
+  "dir": "ltr",
+  
+  "icons": [
+    {
+      "src": "images/icons/icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "images/icons/icon-96x96.png", 
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "images/icons/icon-128x128.png",
+      "sizes": "128x128", 
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "images/icons/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "images/icons/icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "images/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "images/icons/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "images/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  
+  "shortcuts": [
+    {
+      "name": "Llamada de Emergencia",
+      "short_name": "Emergencia",
+      "description": "Línea directa para crisis 24/7",
+      "url": "/tel:+54341XXXXXXX",
+      "icons": [
+        {
+          "src": "images/icons/emergency-icon.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "WhatsApp",
+      "short_name": "Chat",
+      "description": "Contacto rápido por WhatsApp",
+      "url": "https://wa.me/54341XXXXXXX",
+      "icons": [
+        {
+          "src": "images/icons/whatsapp-icon.png", 
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Formulario de Contacto",
+      "short_name": "Contacto",
+      "description": "Enviar consulta confidencial",
+      "url": "/#contacto",
+      "icons": [
+        {
+          "src": "images/icons/contact-icon.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Nuestra Ubicación",
+      "short_name": "Ubicación",
+      "description": "Cómo llegar a la granja",
+      "url": "/#ubicacion",
+      "icons": [
+        {
+          "src": "images/icons/location-icon.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  
+  "categories": [
+    "health",
+    "medical",
+    "lifestyle",
+    "social"
+  ],
+  
+  "screenshots": [
+    {
+      "src": "images/screenshots/desktop-home.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "platform": "wide",
+      "label": "Página principal en escritorio"
+    },
+    {
+      "src": "images/screenshots/mobile-home.png", 
+      "sizes": "390x844",
+      "type": "image/png",
+      "platform": "narrow",
+      "label": "Página principal en móvil"
+    },
+    {
+      "src": "images/screenshots/programs.png",
+      "sizes": "390x844", 
+      "type": "image/png",
+      "platform": "narrow",
+      "label": "Programas de rehabilitación"
+    },
+    {
+      "src": "images/screenshots/contact.png",
+      "sizes": "390x844",
+      "type": "image/png", 
+      "platform": "narrow",
+      "label": "Formulario de contacto"
+    }
+  ],
+  
+  "prefer_related_applications": false,
+  
+  "related_applications": [
+    {
+      "platform": "webapp",
+      "url": "https://granjaesperanza.org"
+    }
+  ],
+  
+  "edge_side_panel": {
+    "preferred_width": 400
+  },
+  
+  "launch_handler": {
+    "client_mode": "focus-existing"
+  },
+  
+  "protocol_handlers": [
+    {
+      "protocol": "tel",
+      "url": "/call?number=%s"
+    },
+    {
+      "protocol": "mailto", 
+      "url": "/contact?email=%s"
+    }
+  ],
+  
+  "file_handlers": [
+    {
+      "action": "/share",
+      "accept": {
+        "text/plain": [".txt"],
+        "image/*": [".jpg", ".jpeg", ".png", ".gif", ".webp"]
+      }
+    }
+  ],
+  
+  "share_target": {
+    "action": "/share",
+    "method": "POST",
+    "enctype": "multipart/form-data",
+    "params": {
+      "title": "title",
+      "text": "text", 
+      "url": "url",
+      "files": [
+        {
+          "name": "files",
+          "accept": ["image/*", "text/plain"]
+        }
+      ]
+    }
+  },
+  
+  "display_override": [
+    "window-controls-overlay",
+    "minimal-ui",
+    "standalone",
+    "browser"
+  ],
+  
+  "user_preferences": {
+    "color_scheme_dark": {
+      "theme_color": "#1f2937",
+      "background_color": "#111827"
+    },
+    "color_scheme_light": {
+      "theme_color": "#2563eb", 
+      "background_color": "#ffffff"
+    }
+  },
+  
+  "handle_links": "preferred",
+  
+  "capture_links": "existing-client-navigate",
+  
+  "id": "granja-esperanza-rehabilitacion",
+  
+  "iarc_rating_id": "",
+  
+  "app_urls": [
+    {
+      "url": "/",
+      "priority": "high"
+    },
+    {
+      "url": "/programas",
+      "priority": "high" 
+    },
+    {
+      "url": "/contacto",
+      "priority": "high"
+    },
+    {
+      "url": "/testimonios",
+      "priority": "medium"
+    },
+    {
+      "url": "/nosotros", 
+      "priority": "medium"
+    },
+    {
+      "url": "/ubicacion",
+      "priority": "medium"
+    }
+  ],
+  
+  "note_taking": {
+    "new_note_url": "/notes/new"
+  },
+  
+  "tab_strip": {
+    "home_tab": {
+      "scope": "/",
+      "icons": [
+        {
+          "src": "images/icons/home-tab.png",
+          "sizes": "16x16"
+        }
+      ]
+    }
+  },
+  
+  "permissions": [
+    "geolocation",
+    "notifications"
+  ]
+}

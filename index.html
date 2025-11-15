@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Granja de Rehabilitación Cristiana - Esperanza y Restauración</title>
+    <meta name="description" content="Centro de rehabilitación cristiano que ofrece tratamiento integral para adicciones con enfoque espiritual. Ubicado en un ambiente de granja sereno y terapéutico.">
+    <meta name="keywords" content="rehabilitación cristiana, adicciones, granja terapéutica, ministerio, restauración, fe">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://granjaesperanza.org/">
+    <meta property="og:title" content="Granja de Rehabilitación Cristiana - Esperanza y Restauración">
+    <meta property="og:description" content="Centro de rehabilitación cristiano que ofrece tratamiento integral para adicciones con enfoque espiritual.">
+    <meta property="og:image" content="https://granjaesperanza.org/images/og-image.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://granjaesperanza.org/">
+    <meta property="twitter:title" content="Granja de Rehabilitación Cristiana - Esperanza y Restauración">
+    <meta property="twitter:description" content="Centro de rehabilitación cristiano que ofrece tratamiento integral para adicciones con enfoque espiritual.">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Manifest para PWA -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#2563eb">
+    
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Granja de Rehabilitación Cristiana Esperanza",
+        "description": "Centro de rehabilitación cristiano especializado en tratamiento de adicciones",
+        "url": "https://granjaesperanza.org",
+        "logo": "https://granjaesperanza.org/images/logo.png",
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+54-341-XXX-XXXX",
+            "contactType": "emergency",
+            "availableLanguage": "Spanish"
+        },
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Rosario",
+            "addressRegion": "Santa Fe",
+            "addressCountry": "AR"
+        },
+        "serviceType": "Rehabilitation Center"
+    }
+    </script>
+</head>
+<body>
+    <!-- Header con navegación -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <img src="images/logo.png" alt="Logo Granja Canaan" class="logo-img">
+                    <span class="logo-text">Granja Canaan</span>
+                </div>
+                
+                <div class="nav-menu" id="navMenu">
+                    <a href="#inicio" class="nav-link">Inicio</a>
+                    <a href="#nosotros" class="nav-link">Nosotros</a>
+                    <a href="#programas" class="nav-link">Programas</a>
+                    <a href="#testimonios" class="nav-link">Testimonios</a>
+                    <a href="#ubicacion" class="nav-link">Ubicación</a>
+                    <a href="#contacto" class="nav-link">Contacto</a>
+                </div>
+                
+                <div class="nav-emergency">
+                    <a href="tel:+54341XXXXXXX" class="emergency-btn">
+                        <i class="fas fa-phone"></i>
+                        <span>Emergencia 24/7</span>
+                    </a>
+                </div>
+                
+                <div class="nav-toggle" id="navToggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    Un Nuevo Amanecer <br>
+                    <span class="hero-highlight">Te Espera</span>
+                </h1>
+                <p class="hero-description">
+                    En nuestra granja de rehabilitación cristiana encontrarás un espacio de sanidad integral, 
+                    donde la fe, el amor y la naturaleza se unen para brindarte una nueva oportunidad de vida.
+                </p>
+                
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">85%</span>
+                        <span class="stat-label">Tasa de éxito</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">200+</span>
+                        <span class="stat-label">Vidas restauradas</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">24/7</span>
+                        <span class="stat-label">Apoyo disponible</span>
+                    </div>
+                </div>
+                
+                <div class="hero-actions">
+                    <a href="#contacto" class="btn-primary">
+                        <i class="fas fa-hands-helping"></i>
+                        Busco Ayuda
+                    </a>
+                    <a href="tel:+54341XXXXXXX" class="btn-emergency">
+                        <i class="fas fa-phone"></i>
+                        Llamada de Crisis
+                    </a>
+                </div>
+            </div>
+            
+            <div class="hero-image">
+                <img src="images/hero-granja.jpg" alt="Vista de la granja de rehabilitación al amanecer" class="hero-img">
+                <div class="hero-overlay">
+                    <div class="verse-container">
+                        <blockquote class="bible-verse">
+                            "Venid a mí todos los que estáis trabajados y cargados, 
+                            y yo os haré descansar."
+                            <cite>- Mateo 11:28</cite>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="hero-scroll">
+            <span class="scroll-text">Descubre más</span>
+            <i class="fas fa-chevron-down scroll-icon"></i>
+        </div>
+    </section>
+
+    <!-- Sección Nosotros -->
+    <section id="nosotros" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nuestra Misión</h2>
+                <p class="section-subtitle">
+                    Transformando vidas a través del amor de Cristo y la terapia integral
+                </p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Un Ministerio de Restauración</h3>
+                    <p>
+                        Desde hace más de 10 años, nuestra granja ha sido un refugio de esperanza para personas 
+                        que luchan contra las adicciones. Combinamos principios cristianos sólidos con terapias 
+                        profesionales modernas en un ambiente natural que favorece la sanidad integral.
+                    </p>
+                    
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-cross feature-icon"></i>
+                            <div class="feature-content">
+                                <h4>Base Cristiana Sólida</h4>
+                                <p>Fundamentados en la Palabra de Dios y la obra transformadora del Espíritu Santo</p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature">
+                            <i class="fas fa-user-md feature-icon"></i>
+                            <div class="feature-content">
+                                <h4>Equipo Profesional</h4>
+                                <p>Psicólogos, trabajadores sociales y consejeros certificados</p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature">
+                            <i class="fas fa-seedling feature-icon"></i>
+                            <div class="feature-content">
+                                <h4>Terapia Rural</h4>
+                                <p>El contacto con la naturaleza y el trabajo agrícola como herramientas de sanidad</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-video">
+                    <div class="video-container">
+                        <iframe 
+                            src="https://www.youtube.com/embed/VIDEO_ID_AQUI" 
+                            title="Conoce nuestra granja de rehabilitación"
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <p class="video-caption">Conoce más sobre nuestro ministerio y las instalaciones</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Programas -->
+    <section id="programas" class="programs">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Programas de Restauración</h2>
+                <p class="section-subtitle">
+                    Tratamientos integrales adaptados a cada necesidad
+                </p>
+            </div>
+            
+            <div class="programs-grid">
+                <div class="program-card">
+                    <div class="program-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3 class="program-title">Programa Residencial</h3>
+                    <p class="program-description">
+                        Internación completa de 6-12 meses con seguimiento 24/7, 
+                        terapias grupales e individuales, y formación laboral.
+                    </p>
+                    <ul class="program-features">
+                        <li><i class="fas fa-check"></i> Alojamiento completo</li>
+                        <li><i class="fas fa-check"></i> Alimentación balanceada</li>
+                        <li><i class="fas fa-check"></i> Terapia diaria</li>
+                        <li><i class="fas fa-check"></i> Trabajo agrícola terapéutico</li>
+                        <li><i class="fas fa-check"></i> Estudios bíblicos</li>
+                    </ul>
+                    <div class="program-cta">
+                        <a href="#contacto" class="btn-outline">Más información</a>
+                    </div>
+                </div>
+                
+                <div class="program-card featured">
+                    <div class="program-badge">Más Popular</div>
+                    <div class="program-icon">
+                        <i class="fas fa-calendar-day"></i>
+                    </div>
+                    <h3 class="program-title">Programa Ambulatorio</h3>
+                    <p class="program-description">
+                        Sesiones diarias de 4-6 horas, ideal para personas con 
+                        responsabilidades familiares o laborales.
+                    </p>
+                    <ul class="program-features">
+                        <li><i class="fas fa-check"></i> Flexibilidad horaria</li>
+                        <li><i class="fas fa-check"></i> Terapias especializadas</li>
+                        <li><i class="fas fa-check"></i> Seguimiento familiar</li>
+                        <li><i class="fas fa-check"></i> Actividades recreativas</li>
+                        <li><i class="fas fa-check"></i> Formación cristiana</li>
+                    </ul>
+                    <div class="program-cta">
+                        <a href="#contacto" class="btn-primary">Consultar ahora</a>
+                    </div>
+                </div>
+                
+                <div class="program-card">
+                    <div class="program-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 class="program-title">Apoyo Familiar</h3>
+                    <p class="program-description">
+                        Terapia y formación para familiares, entendiendo que 
+                        la adicción afecta a todo el núcleo familiar.
+                    </p>
+                    <ul class="program-features">
+                        <li><i class="fas fa-check"></i> Terapia familiar</li>
+                        <li><i class="fas fa-check"></i> Grupos de apoyo</li>
+                        <li><i class="fas fa-check"></i> Talleres educativos</li>
+                        <li><i class="fas fa-check"></i> Consejería individual</li>
+                        <li><i class="fas fa-check"></i> Seguimiento post-tratamiento</li>
+                    </ul>
+                    <div class="program-cta">
+                        <a href="#contacto" class="btn-outline">Conocer más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Testimonios -->
+    <section id="testimonios" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Historias de Transformación</h2>
+                <p class="section-subtitle">
+                    Conoce cómo Dios ha obrado milagros en vidas que parecían perdidas
+                </p>
+            </div>
+            
+            <div class="testimonials-slider">
+                <div class="testimonial-card active">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <blockquote class="testimonial-text">
+                            "Llegué destruido, sin esperanza, pero aquí encontré una familia que me amó 
+                            cuando yo no podía amarme. Hoy tengo 3 años limpio y una vida completamente nueva. 
+                            Dios usó este lugar para devolverme la dignidad."
+                        </blockquote>
+                        <div class="testimonial-author">
+                            <img src="images/testimonial-1.jpg" alt="Testimonio de Carlos" class="author-image">
+                            <div class="author-info">
+                                <h4 class="author-name">Carlos M.</h4>
+                                <span class="author-detail">Graduado 2021 - 3 años en recuperación</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <blockquote class="testimonial-text">
+                            "Como madre, ver a mi hijo sumergido en las drogas era mi peor pesadilla. 
+                            Granja Canaan no solo restauró a mi hijo, sino que nos ayudó como familia 
+                            a sanar heridas que llevábamos años arrastrando."
+                        </blockquote>
+                        <div class="testimonial-author">
+                            <img src="images/testimonial-2.jpg" alt="Testimonio de María" class="author-image">
+                            <div class="author-info">
+                                <h4 class="author-name">María Elena</h4>
+                                <span class="author-detail">Madre de graduado - Programa familiar</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <blockquote class="testimonial-text">
+                            "La terapia de trabajo en la granja me enseñó disciplina y me conectó con 
+                            la creación de Dios. Cada planta que cuidaba era como cuidar mi propia 
+                            recuperación. Hoy soy un hombre nuevo en Cristo."
+                        </blockquote>
+                        <div class="testimonial-author">
+                            <img src="images/testimonial-3.jpg" alt="Testimonio de Roberto" class="author-image">
+                            <div class="author-info">
+                                <h4 class="author-name">Roberto S.</h4>
+                                <span class="author-detail">Graduado 2020 - Ahora voluntario</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonials-controls">
+                <button class="testimonial-btn prev" aria-label="Testimonio anterior">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <div class="testimonials-indicators">
+                    <span class="indicator active" data-slide="0"></span>
+                    <span class="indicator" data-slide="1"></span>
+                    <span class="indicator" data-slide="2"></span>
+                </div>
+                <button class="testimonial-btn next" aria-label="Siguiente testimonio">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Instagram -->
+    <section class="instagram">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Síguenos en Instagram</h2>
+                <p class="section-subtitle">
+                    Comparte nuestro día a día y las actividades de la granja
+                </p>
+            </div>
+            
+            <div class="instagram-feed" id="instagramFeed">
+                <!-- Los posts se cargarán dinámicamente via JavaScript -->
+                <div class="instagram-loading">
+                    <i class="fas fa-spinner fa-spin"></i>
+                    <p>Cargando posts...</p>
+                </div>
+            </div>
+            
+            <div class="instagram-cta">
+                <a href="https://instagram.com/iglesiacanaan__" target="_blank" class="btn-instagram">
+                    <i class="fab fa-instagram"></i>
+                    Seguir @iglesiacanaan__
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Ubicación -->
+    <section id="ubicacion" class="location">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nuestra Ubicación</h2>
+                <p class="section-subtitle">
+                    Ubicados en un entorno natural perfecto para la sanidad y restauración
+                </p>
+            </div>
+            
+            <div class="location-content">
+                <div class="location-info">
+                    <div class="location-details">
+                        <div class="detail-item">
+                            <i class="fas fa-map-marker-alt detail-icon"></i>
+                            <div class="detail-content">
+                                <h4>Dirección</h4>
+                                <p>Av. de los Incas, Ibarlucea, Santa Fe<br>
+                                   Localidad, Santa Fe - Argentina</p>
+                            </div>
+                        </div>
+                        
+                        <div class="detail-item">
+                            <i class="fas fa-phone detail-icon"></i>
+                            <div class="detail-content">
+                                <h4>Teléfono de Emergencia</h4>
+                                <p><a href="tel:+54341XXXXXXX">+54 341 XXX-XXXX</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="detail-item">
+                            <i class="fas fa-envelope detail-icon"></i>
+                            <div class="detail-content">
+                                <h4>Email</h4>
+                                <p><a href="mailto:info@granjaesperanza.org">info@granjaesperanza.org</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="detail-item">
+                            <i class="fas fa-clock detail-icon"></i>
+                            <div class="detail-content">
+                                <h4>Atención</h4>
+                                <p>24 horas, 7 días a la semana<br>
+                                   <strong>Crisis: inmediata</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="location-transport">
+                        <h4><i class="fas fa-bus"></i> Cómo llegar</h4>
+                        <ul>
+                            <li>En auto: Por Ruta XX, desvío km XX</li>
+                            <li>En colectivo: Línea XXX hasta parada "Granja"</li>
+                            <li>Transporte gratuito disponible para casos de emergencia</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="location-map">
+                    <div id="map" class="map-container">
+                        <!-- Google Maps se cargará aquí -->
+                    </div>
+                    <p class="map-note">
+                        <i class="fas fa-info-circle"></i>
+                        Haz clic en el mapa para abrir direcciones en Google Maps
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">¿Necesitas Ayuda?</h2>
+                <p class="section-subtitle">
+                    Estamos aquí para ti. Da el primer paso hacia tu nueva vida.
+                </p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card emergency">
+                        <div class="card-icon">
+                            <i class="fas fa-exclamation-triangle"></i>
+                        </div>
+                        <h3>Crisis o Emergencia</h3>
+                        <p>Si tú o un ser querido están en crisis, llámanos inmediatamente. 
+                           Tenemos personal disponible las 24 horas.</p>
+                        <div class="emergency-actions">
+                            <a href="tel:+54341XXXXXXX" class="btn-emergency-large">
+                                <i class="fas fa-phone"></i>
+                                Llamar Ahora: +54 341 XXX-XXXX
+                            </a>
+                            <a href="https://wa.me/54341XXXXXXX" class="btn-whatsapp" target="_blank">
+                                <i class="fab fa-whatsapp"></i>
+                                WhatsApp Crisis
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card info">
+                        <div class="card-icon">
+                            <i class="fas fa-info-circle"></i>
+                        </div>
+                        <h3>Información y Consultas</h3>
+                        <p>¿Tienes preguntas sobre nuestros programas? ¿Quieres saber más 
+                           sobre el proceso de admisión? Completa el formulario y te contactaremos.</p>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="tipoConsulta">Tipo de consulta</label>
+                            <select id="tipoConsulta" name="tipoConsulta" required>
+                                <option value="">Selecciona una opción</option>
+                                <option value="crisis">🚨 Crisis o emergencia</option>
+                                <option value="admision">📋 Proceso de admisión</option>
+                                <option value="programas">🏠 Información de programas</option>
+                                <option value="familia">👨‍👩‍👧‍👦 Apoyo familiar</option>
+                                <option value="seguimiento">📞 Seguimiento post-tratamiento</option>
+                                <option value="voluntariado">🤝 Voluntariado</option>
+                                <option value="otros">❓ Otros</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="nombre">Nombre completo</label>
+                                <input type="text" id="nombre" name="nombre" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="telefono">Teléfono</label>
+                                <input type="tel" id="telefono" name="telefono" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="edad">Edad de la persona que necesita ayuda</label>
+                                <select id="edad" name="edad">
+                                    <option value="">Seleccionar</option>
+                                    <option value="menor-18">Menor de 18 años</option>
+                                    <option value="18-25">18-25 años</option>
+                                    <option value="26-35">26-35 años</option>
+                                    <option value="36-50">36-50 años</option>
+                                    <option value="mayor-50">Mayor de 50 años</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="situacion">Situación actual</label>
+                                <select id="situacion" name="situacion">
+                                    <option value="">Seleccionar</option>
+                                    <option value="consumo-activo">Consumo activo</option>
+                                    <option value="recaida">Recaída reciente</option>
+                                    <option value="busca-tratamiento">Busca tratamiento</option>
+                                    <option value="familia-preocupada">Familia preocupada</option>
+                                    <option value="seguimiento">Necesita seguimiento</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="mensaje">Cuéntanos tu situación</label>
+                            <textarea id="mensaje" name="mensaje" rows="5" 
+                                placeholder="Comparte con confianza tu situación. Esta información nos ayudará a brindarte la mejor orientación posible. Toda comunicación es confidencial."></textarea>
+                        </div>
+                        
+                        <div class="form-group checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="urgente" name="urgente">
+                                <span class="checkmark"></span>
+                                <span class="checkbox-text">
+                                    <strong>Esta es una situación urgente</strong> - 
+                                    Necesito contacto inmediato (dentro de 1 hora)
+                                </span>
+                            </label>
+                        </div>
+                        
+                        <div class="form-group checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="privacidad" name="privacidad" required>
+                                <span class="checkmark"></span>
+                                <span class="checkbox-text">
+                                    Acepto la <a href="#" onclick="mostrarPoliticaPrivacidad()">política de privacidad</a> 
+                                    y entiendo que mis datos serán tratados confidencialmente
+                                </span>
+                            </label>
+                        </div>
+                        
+                        <div class="form-actions">
+                            <button type="submit" class="btn-submit">
+                                <i class="fas fa-paper-plane"></i>
+                                Enviar Consulta
+                            </button>
+                            <p class="form-note">
+                                <i class="fas fa-shield-alt"></i>
+                                Tu información está protegida y será tratada con total confidencialidad
+                            </p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="images/logo.png" alt="Logo Granja Canaan" class="footer-logo-img">
+                        <h3>Granja Canaan</h3>
+                    </div>
+                    <p class="footer-description">
+                        Transformando vidas a través del amor de Cristo y terapias integrales 
+                        en un ambiente natural de sanidad y restauración.
+                    </p>
+                    <div class="footer-social">
+                        <a href="https://instagram.com/granjaesperanza" class="social-link" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://facebook.com/granjaesperanza" class="social-link" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://youtube.com/granjaesperanza" class="social-link" target="_blank">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul class="footer-links">
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#programas">Programas</a></li>
+                        <li><a href="#testimonios">Testimonios</a></li>
+                        <li><a href="#ubicacion">Ubicación</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Programas</h4>
+                    <ul class="footer-links">
+                        <li><a href="#programas">Programa Residencial</a></li>
+                        <li><a href="#programas">Programa Ambulatorio</a></li>
+                        <li><a href="#programas">Apoyo Familiar</a></li>
+                        <li><a href="#programas">Seguimiento</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contacto de Crisis</h4>
+                    <div class="footer-emergency">
+                        <p><strong>Línea de Crisis 24/7:</strong></p>
+                        <p><a href="tel:+54341XXXXXXX" class="emergency-phone">+54 341 XXX-XXXX</a></p>
+                        <p><a href="mailto:crisis@granjaesperanza.org">crisis@granjaesperanza.org</a></p>
+                        <p>Av. de los Incas<br>Ibarlucea, Santa Fe, Argentina</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p>&copy; 2024 Granja de Rehabilitación Cristiana Esperanza. Todos los derechos reservados.</p>
+                    <div class="legal-links">
+                        <a href="#" onclick="mostrarPoliticaPrivacidad()">Política de Privacidad</a>
+                        <a href="#" onclick="mostrarTerminos()">Términos de Uso</a>
+                        <a href="#" onclick="mostrarEtica()">Código Ético</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <div class="whatsapp-float">
+        <a href="https://wa.me/54341XXXXXXX?text=Hola%2C%20necesito%20información%20sobre%20el%20programa%20de%20rehabilitación" 
+           target="_blank" class="whatsapp-btn" title="Chat por WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <!-- Back to top button -->
+    <div class="back-to-top" id="backToTop">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+
+    <!-- Scripts -->
+    <script src="scripts.js"></script>
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'GA_MEASUREMENT_ID');
+    </script>
+    
+    <!-- Service Worker Registration -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function() {
+                navigator.serviceWorker.register('sw.js')
+                    .then(function(registration) {
+                        console.log('SW registered: ', registration);
+                    })
+                    .catch(function(registrationError) {
+                        console.log('SW registration failed: ', registrationError);
+                    });
+            });
+        }
+    </script>
+</body>
+</html>
